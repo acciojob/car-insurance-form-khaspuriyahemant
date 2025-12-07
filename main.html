@@ -8,32 +8,34 @@
 
 <body>
 	<form method="post">
-	<label for="name">Name:</label>
-	<input type="text" id="name" required>
-		<br>
-	<label for="email">Email</label>
-    <input type="Email" id="email" required>
-	<label for="">Gender:</label>
-	<input type="radio" name="gender" name="gender" required> Male
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" required> Male
     <input type="radio" name="gender" value="female" required> Female
-		<br>
-	<label for="cars">Car Brands</label>
-	<select name="cars" id="cars">
-     <option value=" BMW"> BMW</option>
-     <option value="Audi">Audi</option>
-     <option value="mercedes">Mercedes</option>
-     <option value="Mercedez">Mercedez</option>
+
+    <label for="cars">Car Brands:</label>
+    <select id="cars">
+        <option value="BMW">BMW</option>
+        <option value="Audi">Audi</option>
+        <option value="Mercedez">Mercedez</option>
     </select>
-		<br>
-	<label for="carage">Car Age</label>
-	<input type="number" id="carage" required>
-	<label for="dop"></label>
-	<input type="date" id="dop" required>
-	<br>
-	<label for="password">Password</label>
-	<input type="password" id="password" required>
-	<input type="submit" value="Submit">
-		</form>
+
+    <label for="carage">Car Age:</label>
+    <input type="number" id="carage" required>
+
+    <label for="dop">Date of Purchase:</label>
+    <input type="date" id="dop" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+
+    <button type="submit">Submit</button>
+</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
